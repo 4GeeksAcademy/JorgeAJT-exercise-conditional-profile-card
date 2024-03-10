@@ -93,7 +93,7 @@
   transition: background-color 0.3s;
 }
 .widget ul li:hover > a {
-  background-color: rgb(250, 133, 38);
+  background-color: rgb(255, 158, 158);
 }
 .widget ul li:first-child > a {
   border-radius: 0 3px 0 0;
