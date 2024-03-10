@@ -1,26 +1,7 @@
-.filters {
-  width: 100%;
-}
-.filters li {
-  display: inline-block;
-  max-width: auto;
-  padding: 3px;
-}
-.filters li label {
-  display: block;
-  font-size: 12px;
-  font-weight: 900;
-}
-.filters li input {
-  width: 100%;
-}
-.filters li select {
-  width: 100%;
-}
 .widget {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 410px;
+  height: 470px;
   margin: 50px auto;
   background: #ffffffd8;
   border-radius: 5px;
@@ -50,7 +31,7 @@
 .widget h2,
 .widget h3 {
   display: block;
-  margin: 10px 0;
+  margin: 20px 0;
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
@@ -73,11 +54,11 @@
   background: rgb(255, 84, 84);
 }
 .widget ul.position-left {
-  left: -38px;
+  left: -35px;
   top: 0px;
 }
 .widget ul.position-right {
-  right: -38px;
+  right: -35px;
   top: 0px;
 }
 .widget ul li {
@@ -93,7 +74,7 @@
   transition: background-color 0.3s;
 }
 .widget ul li:hover > a {
-  background-color: rgb(255, 158, 158);
+  background-color: rgb(253, 157, 157);
 }
 .widget ul li:first-child > a {
   border-radius: 0 3px 0 0;
@@ -104,6 +85,7 @@
 }
 body {
   background: radial-gradient(circle, #ffe57e, #ffa76d);
-  width: auto;
-  height: auto;
+}
+.row {
+  margin-top: 80px;
 }

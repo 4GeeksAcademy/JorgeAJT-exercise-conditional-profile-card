@@ -20,104 +20,83 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-6 col-lg-12 px-0">
-          <ul class="filters d-flex justify-content-between p-2">
-            <li>
-              <label>Include Cover</label>
-              <select class="picker form-select mt-1" for="includeCover">
-                <option value="">Include Cover</option>
+        <div class="col-11 col-lg-3 p-5 fw-semibold ms-5">
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Include Cover</label>
+              <select class="picker form-select" for="includeCover">
                 <option value="true">True</option>
                 <option value="false">False</option>
               </select>
-            </li>
-            <li>
-              <label>Name</label>
-              <input class="picker form-control mt-1" for="name" type="text" />
-            </li>
-            <li>
-              <label>Last Name</label>
-              <input
-                class="picker form-control mt-1"
-                for="lastName"
-                type="text"
-              />
-            </li>
-            <li>
-              <label>Role</label>
-              <select class="picker form-select mt-1" for="role">
-                <option value="">null</option>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+              <input class="picker form-control" for="name" type="text" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Last Name</label>
+              <input class="picker form-control" for="lastName" type="text" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Profession</label>
+              <select class="picker form-select" for="profession">
+                <option value="">Select your profession</option>
                 <option value="Web Developer">Web Developer</option>
                 <option value="Floor Planner">Floor Planner</option>
                 <option value="Technical Writter">Technical Writter</option>
                 <option value="Personal Trainer">Personal Trainer</option>
                 <option value="Doctor">Doctor</option>
               </select>
-            </li>
-            <li>
-              <label>City</label>
-              <select class="picker form-select mt-1" for="city">
-                <option value="">null</option>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">City</label>
+              <select class="picker form-select" for="city">
+                <option value="">Select your city</option>
                 <option value="Miami">Miami</option>
                 <option value="Munich">Munich</option>
                 <option value="Cadiz">Cádiz</option>
                 <option value="Toronto">Toronto</option>
                 <option value="Caracas">Caracas</option>
               </select>
-            </li>
-            <li>
-              <label>Country</label>
-              <select class="picker form-select mt-1" for="country">
-                <option value="">null</option>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Country</label>
+              <select class="picker form-select" for="country">
+                <option value="">Select your country</option>
                 <option value="USA">USA</option>
                 <option value="Germany">Germany</option>
                 <option value="Spain">Spain</option>
                 <option value="Canada">Canada</option>
                 <option value="Venezuela">Venezuela</option>
               </select>
-            </li>
-            <li>
-              <label>Social Media</label>
-              <select class="picker form-select mt-1" for="socialMediaPosition">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Social Media</label>
+              <select class="picker form-select" for="socialMediaPosition">
                 <option value="position-right">Right</option>
                 <option value="position-left">Left</option>
               </select>
-            </li>
-            <li>
-              <label>Twitter</label>
-              <input
-                class="picker form-control mt-1"
-                for="twitter"
-                type="text"
-              />
-            </li>
-            <li>
-              <label>Github</label>
-              <input
-                class="picker form-control mt-1"
-                for="github"
-                type="text"
-              />
-            </li>
-            <li>
-              <label>LinkedIn</label>
-              <input
-                class="picker form-control mt-1"
-                for="linkedin"
-                type="text"
-              />
-            </li>
-            <li>
-              <label>Instagram</label>
-              <input
-                class="picker form-control mt-1"
-                for="instagram"
-                type="text"
-              />
-            </li>
-          </ul>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Twitter</label>
+              <input class="picker form-control" for="twitter" type="text" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Github</label>
+              <input class="picker form-control" for="github" type="text" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">LinkedIn</label>
+              <input class="picker form-control" for="linkedin" type="text" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Instagram</label>
+              <input class="picker form-control" for="instagram" type="text" />
+            </div>
+          </form>
         </div>
+        <div id="widget_content" class="col-11 col-lg-7 mt-5"></div>
       </div>
-      <div id="widget_content"></div>
     </div>
 
     <!-- do not remove this bundle.js tag -->
